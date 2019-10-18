@@ -5,8 +5,9 @@ dependencies:
   - nodejs
   - jupyter=1.0.0
   - jupyterlab=1.0.2
-  - pip
-  - pip:
-       - "--editable=git+https://github.com/intake/xrviz@master#egg=hrrr"
+  - xrviz
   - metpy
   - geoviews
+  - hvplot
+  - holoviews
+  - datashader
